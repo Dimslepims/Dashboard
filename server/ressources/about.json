@@ -1,0 +1,114 @@
+{
+  "client": {
+    "host": "127.0.0.1"
+  },
+  "server": {
+    "current_time": 1637227737,
+    "services": [
+      {
+        "name": "weather",
+        "widgets": [
+          {
+            "name": "city_temperature",
+            "description": "Display temperature for a city",
+            "params": [
+              {
+                "name": "city",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "reddit",
+        "widgets": [
+          {
+            "name": "user_information",
+            "description": "Display your profile",
+            "params": []
+          },
+          {
+            "name": "browse_users",
+            "description": "Display user information",
+            "params": [
+              {
+                "name": "username",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "name": "subreddit_information",
+            "description": "Display subreddit informations",
+            "params": [
+              {
+                "name": "subreddit_name",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "crypto",
+        "widgets": [
+          {
+            "name": "crypto_currency",
+            "description": "Display informations about a crypto",
+            "params": [
+              {
+                "name": "cryptoname",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "twitch",
+        "widgets": [
+          {
+            "name": "get_most_stream_games",
+            "description": "Display most stream games",
+            "params": [
+              {
+                "name": "max",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "name": "get_clips",
+            "description": "Display clips of a streamer",
+            "params": [
+              {
+                "name": "username",
+                "type": "string"
+              },
+              {
+                "name": "amount",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "steam",
+        "widgets": [
+          {
+            "name": "userSteam",
+            "description": "Display user from steamId",
+            "params": [
+              {
+                "name": "steamId",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
